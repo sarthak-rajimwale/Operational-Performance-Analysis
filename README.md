@@ -36,3 +36,56 @@ The dashboard is designed to answer:
   - Error detection
   - SLA breach derivation
 - Final analytical object:
+vw_ops_logs_final
+This view is the **only source** consumed by Power BI.
+
+---
+
+## 📊 Dashboard Features
+
+### Executive KPIs
+- Total Requests
+- Average Latency
+- P95 Latency
+- Error Rate %
+- SLA Breach %
+
+### Diagnostics & Insights
+- SLA breach trends over time
+- Category-level SLA breach impact (treemap)
+- Service-level prioritization using composite DAX ranking
+- Conditional formatting to surface risk instantly
+
+---
+
+## 🧮 Analytics Logic (DAX)
+- Percentile-based latency analysis (P95 vs average)
+- Error and SLA breach rate calculations
+- **Composite Ops Priority Score** combining:
+- Error rate
+- SLA breach percentage
+- Latency impact
+- Ranking logic to guide engineering focus toward highest-impact services
+
+---
+
+## 🔗 Live Dashboard
+👉 **Power BI Public Link:**  
+PASTE_YOUR_POWER_BI_LINK_HERE
+
+---
+
+## 🧠 Key Takeaways
+- Clear separation of **data engineering (SQL)** and **analytics (DAX)**
+- Emphasis on **diagnostics over vanity KPIs**
+- Designed for **operational decision-making**, not just reporting
+- Built entirely on **real-world data**, not synthetic examples
+
+---
+
+## 📌 Use Case
+This project is well-suited for demonstrating:
+- Operational analytics
+- SLA monitoring and diagnostics
+- Service prioritization logic
+- BI best practices in interviews and portfolio reviews
