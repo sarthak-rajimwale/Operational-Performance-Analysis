@@ -29,7 +29,7 @@ The dashboard is designed to answer:
 
 ## 🛠 Data Engineering (SQL)
 - Raw data ingested without transformation (all columns as VARCHAR)
-- No logic applied to the raw table (best practice)
+- No logic applied to the raw table 
 - All business and validation logic implemented in a **single analytical SQL view**:
   - Timestamp parsing
   - Latency validation
@@ -69,12 +69,6 @@ This view is the **only source** consumed by Power BI.
 
 ---
 
-## 🔗 Live Dashboard
-👉 **Power BI Public Link:**  
-PASTE_YOUR_POWER_BI_LINK_HERE
-
----
-
 ## 🧠 Key Takeaways
 - Clear separation of **data engineering (SQL)** and **analytics (DAX)**
 - Emphasis on **diagnostics over vanity KPIs**
@@ -89,3 +83,4 @@ This project is well-suited for demonstrating:
 - SLA monitoring and diagnostics
 - Service prioritization logic
 - BI best practices in interviews and portfolio reviews
+
